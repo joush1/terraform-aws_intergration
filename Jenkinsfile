@@ -6,7 +6,7 @@ pipeline {
     }
 
     tools {
-        terraform 'terraform'   // must match the name in Manage Jenkins → Tools
+        terraform 'my-cba-terraform'   
     }
 
     stages {
